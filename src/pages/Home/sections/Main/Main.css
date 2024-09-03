@@ -1,0 +1,336 @@
+.main {
+    margin-top: 10rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.main__intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main__intro-img {
+    display: flex;
+    position: relative;
+    bottom: -4rem;
+}
+
+.main__intro-img img {
+    max-width: 100%;
+    max-height: 560px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.main__intro-text {
+    flex: flex;
+    flex-direction: column;
+    max-width: 398px;
+    margin-left: 2rem;
+    position: relative;
+    top: -3rem;
+}
+
+.main__intro-text p {
+    font-family: var(--lato);
+    color: #2C3E50;
+    font-weight: 300;
+    font-size: 22.5px;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+
+.main__intro-text .main__intro-text__name {
+    font-family: var(--lato);
+    color: #A36C4D;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.main__research {
+    margin: 8rem 10rem 2rem 2rem;
+    text-align: right;
+}
+
+.main__research h2 {
+    font-family: var(--lato);
+    color: #A36C4D;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+
+.main__research p {
+    font-family: var(--georgia);
+    color: #4B3832;
+    font-weight: 400;
+    max-width: 810px;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    margin-left: auto;
+}
+
+.main__research .main__research-paraTwo {
+    margin-top: 2rem;
+}
+
+.main__publications {
+    margin: 6rem 2rem 2rem 8rem;
+    text-align: left;
+}
+
+.main__publications h2 {
+    font-family: var(--lato);
+    color: #A36C4D;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+
+.main__publications p {
+    font-family: var(--georgia);
+    color: #4B3832;
+    font-weight: 400;
+    max-width: 900px;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    margin-right: auto;
+}
+
+.main__publications-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main__publications-images img {
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    max-width: 200px;
+    max-height: auto;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.main__publications-images .anthology-image,
+.main__publications-images .utsoc-image,
+.main__publications-images .vertigo-image,
+.main__publications-images .st-image,
+.main__publications-images .uts-image {
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .main__intro-text {
+        max-width: 350px;
+        margin-left: 1.5rem;
+    }
+
+    .main__intro-img img {
+        max-height: 540px;
+    }
+
+    .main__intro-text p {
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    .main__intro-text .main__intro-text__name {
+        font-size: 17px;
+        line-height: 40px;
+    }
+
+    .main__research {
+        margin: 8rem 2rem 2rem 0rem;
+    }
+
+    .main__research h2 {
+        font-size: 50px;
+        line-height: 74px;
+    }
+
+    .main__research p {
+        max-width: 660px;
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .main__publications {
+        margin: 8rem 0rem 2rem 2rem;
+    }
+
+    .main__publications h2 {
+        font-size: 50px;
+        line-height: 74px;
+    }
+
+    .main__publications p {
+        max-width: 670px;
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .main__publications-images img {
+        max-height: 250px;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        margin-top: 6rem;
+    }
+
+    .main__intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__intro-img {
+        bottom: 0;
+    }
+
+    .main__intro-img img {
+        max-height: 480px;
+    }
+
+    .main__intro-text {
+        top: 0;
+        margin-left: 0;
+    }
+
+    .main__intro-text p {
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .main__intro-text .main__intro-text__content {
+        margin-top: 1rem;
+    }
+
+    .main__intro-text .main__intro-text__name {
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        margin-bottom: 0.5rem;
+    }
+
+    .main__research {
+        margin: 4rem 1.5rem 2rem 0rem;
+    }
+
+    .main__research h2 {
+        font-size: 46px;
+        line-height: 70px;
+    }
+
+    .main__research p {
+        max-width: 410px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .main__publications {
+        margin: 4rem 0rem 2rem 1.5rem;
+    }
+
+    .main__publications h2 {
+        font-size: 46px;
+        line-height: 70px;
+    }
+
+    .main__publications p {
+        max-width: 410px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .main__publications-images img {
+        max-height: 160px;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+    .main__publications-images .st-image {
+        margin-right: 0.5rem;
+    }
+
+    .main__publications-images .uts-image {
+        margin-left: 0.5rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .main__intro-text {
+        max-width: 300px;
+    }
+
+    .main__intro-img img {
+        max-height: 410px;
+    }
+
+    .main__intro-text p {
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .main__intro-text .main__intro-text__name {
+        font-size: 15px;
+        line-height: 33px;
+    }
+
+    .main__research {
+        margin: 4rem 1rem 2rem 0rem;
+    }
+
+    .main__research h2 {
+        font-size: 40px;
+        line-height: 66px;
+    }
+
+    .main__research p {
+        max-width: 370px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .main__publications {
+        margin: 4rem 0rem 2rem 1rem;
+    }
+
+    .main__publications h2 {
+        font-size: 38px;
+        line-height: 66px;
+    }
+
+    .main__publications p {
+        max-width: 370px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .main__publications-images img {
+        max-width: 135px;
+        max-height: auto;
+    }
+
+    .main__publications-images .st-image {
+        margin-right: 0.25rem;
+    }
+
+    .main__publications-images .uts-image {
+        margin-left: 0.25rem;
+        margin-right: 1rem;
+    }
+}

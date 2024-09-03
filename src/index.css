@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Georgia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+  --lato : 'Montserrat', sans-serif;
+  --georgia: 'Georgia', serif; 
+  --libre : 'Libre Baskerville', serif;
+  --zilla-slab : 'Zilla Slab', serif;
+  --background-color: #003366;
+  --header-color: #87CEFA;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}

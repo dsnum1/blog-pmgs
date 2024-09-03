@@ -1,0 +1,237 @@
+.blog__aboutus {
+    box-sizing: border-box;
+}
+
+.blog__aboutus-header {
+    background-color: var(--background-color);
+    padding-top: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.blog__aboutus-header h1 {
+    font-family: var(--lato);
+    color: var(--header-color);
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.blog__aboutus-content {
+    margin: 0 auto;
+    padding-top: 4rem;
+    max-width: 800px;
+}
+
+.blog__aboutus-content p {
+    font-family: var(--georgia);
+    font-weight: 400;
+    color: #4B3832;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+    line-height: 30px;
+}
+
+.blog__aboutus-main {
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 4rem 6rem 0;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__aboutus-main_heading h2 {
+    font-family: var(--lato);
+    color: #A36C4D;
+    font-weight: 300;
+    font-size: 63px;
+    line-height: 75px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.blog__aboutus-main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+
+.blog__aboutus-main_container-text {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.blog__aboutus-main_container-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.blog__aboutus-main_container-img img {
+    max-width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blog__aboutus-main_container-text {
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 1rem;
+}
+
+.blog__aboutus-main_container-text p {
+    font-family: var(--georgia);
+    color: #4B3832;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+@media screen and (min-width: 1800px) {
+    .blog__aboutus-main_container-text p {
+        font-size: 20px;
+        line-height: 42px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .blog__aboutus-main_container-text p {
+        font-size: 16px;
+        line-height: 38px;
+        letter-spacing: 1px;
+    }
+
+    .blog__aboutus-main_container {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .blog__aboutus-header h1 {
+        font-size: 64px;
+        line-height: 90px;
+    }
+
+    .blog__aboutus-main_heading h2 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    .blog__aboutus-content {
+        max-width: 650px;
+    }
+
+    .blog__aboutus-content p {
+        font-size: 18px;
+    }
+
+    .blog__aboutus-main {
+        padding-top: 3rem;
+    }
+
+    .blog__aboutus-content {
+        padding-top: 3rem;
+    }
+
+    .blog__aboutus-main_container {
+        flex-direction: column;
+    }
+
+    .blog__aboutus-main_container-text {
+        width: 550px;
+    }
+
+    .blog__aboutus-main_container {
+        margin-bottom: 0rem;
+    }
+
+    .blog__aboutus-main_container-img {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .blog__aboutus-header {
+        padding-top: 24vh;
+    }
+
+    .blog__aboutus-header h1 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .blog__aboutus-main_heading h2 {
+        font-size: 47px;
+        line-height: 60px;
+    }
+
+    .blog__aboutus-content {
+        max-width: 300px;
+    }
+
+    .blog__aboutus-content p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .blog__aboutus-content {
+        padding-top: 2rem;
+    }
+
+    .blog__aboutus-main_container-text {
+        width: 300px;
+    }
+
+    .blog__aboutus-main_container-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .blog__aboutus-main_heading h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .blog__aboutus-main_heading h2 {
+        font-size: 42px;
+        line-height: 60px;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .blog__aboutus-header h1 {
+        font-size: 50px;
+    }
+
+    .blog__aboutus-main_container-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .blog__aboutus-main_container-text {
+        width: 220px;
+    }
+
+    .blog__aboutus-main_heading h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}

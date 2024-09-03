@@ -1,0 +1,131 @@
+.blog__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-color);
+    padding: 1rem 2rem; 
+    position: relative;
+}
+
+.blog__navbar-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blog__navbar-logo_text {
+    font-family: var(--lato);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    width: 191px;
+    height: 72px;
+    color: #ECEBF6;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.blog__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.blog__navbar-links li {
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+
+.blog__navbar-links li a:hover {
+    color: #87CEFA;
+}
+
+.blog__navbar-links .nav-link {
+    font-family: var(--lato);
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 32.4px;
+    color: #ECEBF6;
+}
+
+.blog__navbar-toggleMenu {
+    display: none;
+}
+
+.blog__navbar-close {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--background-color);
+    transition: .5s ease;
+    flex-direction: column;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__navbar-close .toggle__close {
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.blog__navbar-toggleMenu_links {
+    list-style: none;
+}
+
+.blog__navbar-toggleMenu_links li {
+    font-family: var(--lato);
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.blog__navbar-toggleMenu_links .nav-link {
+    color: #ECEBF6;
+}
+
+.blog__navbar-toggleMenu_links .nav-link:hover {
+    color: #87CEFA;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .blog__navbar-links{
+        display: none;
+    }
+
+    .blog__navbar-toggleMenu {
+        display: flex;
+    }
+
+    .blog__navbar-logo_text {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .blog__navbar {
+        padding: 1rem;
+    }
+
+    .blog__navbar-logo_text {
+        font-size: 33px;
+        font-weight: 300;
+        margin-top: 0.5rem;
+    }
+}

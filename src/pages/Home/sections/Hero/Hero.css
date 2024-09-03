@@ -1,0 +1,114 @@
+.blog__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    width: 100vw;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.blog__hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.blog__hero-img img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 580px;
+    display: block;
+    transform: rotate(135deg);
+}
+
+.blog__hero-text {
+    display:flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.blog__hero-text h1 {
+    font-family: var(--lato);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 55px;
+    color: #87CEFA;
+}
+
+.blog__hero-text h2 {
+    font-family: var(--lato);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #CB8157;
+    margin: 0;
+    padding: 0;
+}
+
+.blog__hero-text h4 {
+    font-family: var(--lato);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #C3DFED;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .blog__hero-text h1 {
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    .blog__hero-text h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .blog__hero-text h4 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .blog__hero-text h1 {
+        font-size: 34px;
+        line-height: 37px;
+    }
+
+    .blog__hero-text h2 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .blog__hero-text h4 {
+        font-size: 11px;
+        line-height: 14px;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .blog__hero-text h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .blog__hero-text h2 {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .blog__hero-text h4 {
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 1.5rem;
+    }
+}

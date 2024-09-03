@@ -1,0 +1,8 @@
+export { default as Home } from './Home/Home'
+export { default as Research } from './Research/Research'
+export { default as Publications } from './Publications/Publications'
+export { default as BlogContentPage } from './BlogContentPage/BlogContentPage'
+export { default as Blogs } from './Blog/Blog'
+export { default as Podcasts } from './Podcasts/Podcasts'
+export { default as AboutUs } from './AboutUs/AboutUs'
+export { default as NoPage } from './NoPage/NoPage'
