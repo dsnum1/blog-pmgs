@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Home, Research, Publications, Blogs, BlogContentPage, Podcasts, AboutUs, NoPage } from './pages'
+import { Home, Research, Publications, Blogs, BlogContentPage, Podcasts, AboutUs, NoPage, Vertigo } from './pages'
 import useFetch from '../src/hooks/useFetch'
 import useScrollToTop from './hooks/useScrollToTop'
 import './App.css';
@@ -25,6 +25,7 @@ const App = () => {
         <Route path="/blogs/:id" element={<BlogContentPage blogs={data?data:""} />}  />
         <Route path="/podcasts" element={<Podcasts />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/vertigo" element={<Vertigo />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>
