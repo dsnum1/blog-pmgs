@@ -9,12 +9,10 @@ const App = () => {
   useScrollToTop();
 
 
-  // https://cloud.strapi.io/projects/blog-backend-b967ef099a/deployments/api/blogs?populate=*
-
   let {loading, error, data} = useFetch('https://excellent-acoustics-7fc6bf831a.strapiapp.com/api/blogs?populate=*')
 
-  if (loading) return <p>Loading...</p>
-  if (error) return <p>Error</p>
+  // if (loading) return <p>Loading...</p>
+  // if (error) return <p>Error</p>
   
   return (
     <div>

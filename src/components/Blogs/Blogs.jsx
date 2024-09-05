@@ -16,13 +16,7 @@ const Blogs = ({ blogs }) => {
             const { attributes } = blog || {};
             if (!attributes) return null;
 
-            // Get profile image URL
             const profileImgUrl = attributes.profileImg?.data?.attributes?.url;
-            console.log("Here is profileImgUrl", profileImgUrl);
-
-            console.log(`Heyyy maammaa ${apiUrl}${profileImgUrl}`)
-            
-            // Get cover image URL
             const coverImgUrl = attributes.coverImg?.data?.[0]?.attributes?.url;
 
             return (
