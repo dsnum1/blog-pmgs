@@ -1,9 +1,10 @@
 import React from 'react'
-import { Navbar, Blogs, Footer } from '../../components'
+import { Navbar, Blogs, Blogs2, Footer } from '../../components'
 import './Blog.css'
+import { useState, useEffect } from 'react';
+
 
 const Blog = ({blogs}) => {
-  
   return (
     <div>
       <Navbar />
@@ -23,11 +24,9 @@ const Blog = ({blogs}) => {
         These blogs are deeply personal accounts of my engagements with the aforementioned themes that I have mostly produced as reflective writings.
         </p>
       </div>
-
-      <Blogs blogs={blogs} />
+      <Blogs2 blogs={blogs} />
       <Footer />
     </div>
   )
 }
-
 export default Blog

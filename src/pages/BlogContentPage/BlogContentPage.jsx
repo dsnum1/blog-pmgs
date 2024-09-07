@@ -1,12 +1,12 @@
 import React from 'react'
-import { Navbar, BlogContent, Footer } from '../../components'
+import { Navbar, BlogContent, BlogContent2, Footer } from '../../components'
 
 const BlogContentPage = ({blogs}) => {
 
   return (
     <div>
         <Navbar />
-        <BlogContent blogs={blogs} />
+        <BlogContent2 blogs={blogs} />
         <Footer />
     </div>
   )

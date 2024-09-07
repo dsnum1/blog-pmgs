@@ -4,14 +4,11 @@ import './Blogs.css';
 
 const Blogs = ({ blogs }) => {
   const apiUrl = process.env.REACT_APP_API_BASE_URL;
-  console.log("there is somethuing here",process.env.REACT_APP_API_BASE_URL);
-  console.log("Here is blog", blogs);
-
   return (
     <div className="blog__blogs">
       <div className="blog__blogs-container">
         <div className="blog__blogs-container_grid">
-          {blogs?.data?.map((blog) => {
+          {blogs?.map((blog) => {
             // Check if `attributes` exist
             const { attributes } = blog || {};
             if (!attributes) return null;
@@ -60,6 +57,10 @@ const Blogs = ({ blogs }) => {
     </div>
   );
 };
+
+
+
+
 
 export default Blogs;
 

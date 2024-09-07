@@ -26,9 +26,6 @@ const Navbar = () => {
           <Link to="/publications" className="nav-link">Publications</Link>
         </li>
         <li>
-          <Link to="/vertigo" className="nav-link">Vertigo</Link>
-        </li>
-        <li>
           <Link to="/blogs" className="nav-link">Blogs</Link>
         </li>
         <li>
