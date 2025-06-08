@@ -89,6 +89,7 @@
     padding: 1rem;
     padding-bottom: 0.6rem;
     margin: 0;
+    height:7rem !important;
 }
 
 .blog__blogs-container_grid-card_bottom p {

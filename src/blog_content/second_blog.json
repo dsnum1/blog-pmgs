@@ -1,0 +1,95 @@
+{
+    "id": "2",
+    "attributes": {
+        "blogTitle": "Dirt & Dignity of Loving from Afar",
+        "blogDesc": "Season 1: Love technified: Our probation \n Episode 1: I can’t fuckin hear you! \n .",
+        "imgCaption": "A love long-denied of its arrival in full.",
+        "blogDate": "2025-06-08",
+        "authorName": "Sanskriti Satyakam",
+        "blogContent": [
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "There are parts of me I struggle to claim. Not because they are unfamiliar, but because they bear little resemblance to who I was supposed to be. In this blog series, I present the biggest of them- the part held hostage by the screen. The part that arrives unannounced, in the shadowy margins of a love stretched thin by distance and an unraveling digitised connection. The part that emerges as rage, as guilt, as helplessness— and with a force that keeps me unsettled. The part I barely recognise, and yet one that he, heartbreakingly, knows too well. Because the best of me rarely reaches him. The mechanics of a technology-housed relationship more than often render it inaudible. I love him with volume and clarity. But this loudness- sincere, resounding— never quite arrives in full. The signal falters. The screen freezes. The timing misses. And love, in all its urgency, is left buffering.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "In my daily life, this grief is easy to mask. The rigor of my routine- precise, obedient, and tightly wound, becomes a refuge. My work, with its rhythm and its quiet reciprocities, offers a steadiness I can comfortably snuggle into. There is an unspoken promise between my tasks and I- I show up, and they unfold. No emotional volatility, no missed signals. Just the quiet comfort of certainty. The kind of order I thrive in. The kind of mutuality I crave. But when this daily structure even slightly loosens, there is a deafening, timeless silence. And in this, the distance stops being a metaphor and becomes a monster.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "This piece does not aim to redeem or explain. It exists to acknowledge. To name a reality that remains largely unspoken in my everyday— that the intimacy I long to offer is so often lost in transmission. And that in its place, something far less tender arrives. But if there is one truth that trembles yet remains unshaken beneath it all, is this: I love him. So loudly. So fiercely. But all he only ever receives is the echo.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "It was 2:55am on a quiet Friday, April 19, 2024, when I opened this blank document with the desperation only shame could incite. I thought I was burying my ashamed self here, in the refuge of unwritten words. But beneath was a secret hope of having these confessions read and known. So here is one, briefly, to begin with… ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "I have hurt him. I have bullied him. I have manipulated, gaslit, guilt-tripped — words I don’t use lightly, but truthfully. And this time, I won’t pretend I don’t know where it comes from. It comes from the emotional relay race across time zones and half-slept nights. It comes from chasing compatibility through call schedules, trying to sync our moods like devices that never update at the same time. I’ve weaponised what little access I have because I want all of him, constantly. And in that wanting, I’ve taken the ugliest route toward my most beautiful hope- him and I, in continuity, in agreement, in closeness. Not lagging. Not distanced.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "I’ve squeezed what I can from the online-ness of our relationship as if volume could substitute for presence, as if intensity could fill the gap that one touch would. But it doesn’t. It only leaves bruises— some on him, some on me. I am a co-hostage to my own circumstance. And in trying to escape it, I’ve sometimes ended up turning him into collateral. And I am scared. Scared of the harm I’ve caused. Scared of the silence I’ve enforced. Scared of the distance I’ve deepened.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "I’ve often told myself, “I’ll make it up when we’re finally together.” But that is not a promise. It is a delay tactic. A postponement of accountability. He deserves more. For the consistency in how he shows up, how he forgives, how he endures. He deserves a version of me that is not always in repair. I was supposed to be someone who champions kindness, respect, equality, empathy. And yet, with the one I love most, I always fall short. Repeatedly. Profoundly.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "children": [
+                    {
+                        "text": "This unvarnished, uncomfortable, necessary confession— is not a breakdown of our relationship. It is a tribute to the astonishing faith that has held it upright. A refusal to let doubts shape our truth. And my way of contemplating the stares, the murmurs, the condescending suggestions that we are doomed because the miles stretch longer than most can endure. Presenting myself to you, as someone devoted to embracing this dirt only because I know exactly where it sits. One speck in a love that is vast, intact, and extraordinarily worth preserving. And if I have to write my way through the worst of it to honour the best of it, so be it. ",
+                        "type": "text"
+                    }
+                ]
+            }           
+        ],
+        "createdAt": "2025-08-06T05:18:01.425Z",
+        "updatedAt": "2025-08-06T05:18:08.220Z",
+        "publishedAt": "25-08-06T05:18:08.220Z",
+        "coverImg": {
+                "src":"https://github.com/dsnum1/blog-pmgs/blob/main/media/s1_ep_1_image.jpeg?raw=true",
+                "imgCaption":"A love long-denied of its arrival in full."
+            },
+        "profileImg": {
+            "src":"https://github.com/dsnum1/blog-pmgs/blob/main/media/profilePic.png?raw=true",
+            "imgCaption":"Cover Image for the blog"
+        }
+    }
+}
